@@ -21,8 +21,7 @@ orchestration, and self-hosted models remain outside the first release.
 
 ## Roadmap
 
-1. `v0.1`: runnable skeleton and health checks
+1. [`v0.1`](v0.1-task-list.md): runnable skeleton and health checks
 2. `v0.2`: document import and search projection
 3. `v0.3`: permission-aware search
 4. `v0.4`: cited AI answers and evaluation
-
