@@ -1,0 +1,20 @@
+# Reference list; create these labels in GitHub manually or automate later.
+- { name: "type/epic", color: "5319e7" }
+- { name: "type/story", color: "1d76db" }
+- { name: "type/task", color: "0e8a16" }
+- { name: "type/bug", color: "d73a4a" }
+- { name: "type/spike", color: "fbca04" }
+- { name: "area/frontend", color: "c5def5" }
+- { name: "area/core-api", color: "c5def5" }
+- { name: "area/knowledge-service", color: "c5def5" }
+- { name: "area/search", color: "c5def5" }
+- { name: "area/infra", color: "c5def5" }
+- { name: "area/docs", color: "c5def5" }
+- { name: "priority/p0", color: "b60205" }
+- { name: "priority/p1", color: "fbca04" }
+- { name: "priority/p2", color: "0e8a16" }
+- { name: "risk/security", color: "d93f0b" }
+- { name: "risk/privacy", color: "d93f0b" }
+- { name: "risk/copyright", color: "d93f0b" }
+- { name: "risk/ai-quality", color: "d93f0b" }
+

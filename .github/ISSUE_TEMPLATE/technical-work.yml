@@ -1,0 +1,30 @@
+name: Technical work
+description: Track a task, spike, or maintenance item.
+title: "[Task]: "
+labels: ["type/task"]
+body:
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Work type
+      options: [Task, Spike, Maintenance]
+    validations:
+      required: true
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Intended outcome
+    validations:
+      required: true
+  - type: textarea
+    id: completion
+    attributes:
+      label: Completion criteria
+      value: "- [ ]"
+    validations:
+      required: true
+  - type: textarea
+    id: constraints
+    attributes:
+      label: Constraints and timebox
+

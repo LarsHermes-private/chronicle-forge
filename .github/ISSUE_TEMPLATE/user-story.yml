@@ -1,0 +1,34 @@
+name: User story
+description: Describe a small, observable user outcome.
+title: "[Story]: "
+labels: ["type/story"]
+body:
+  - type: textarea
+    id: story
+    attributes:
+      label: Story
+      placeholder: As a ... I want ... so that ...
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+    validations:
+      required: true
+  - type: textarea
+    id: criteria
+    attributes:
+      label: Acceptance criteria
+      value: "- [ ] Given ..., when ..., then ..."
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: Out of scope
+  - type: textarea
+    id: references
+    attributes:
+      label: Requirements, ADRs, and related issues
+

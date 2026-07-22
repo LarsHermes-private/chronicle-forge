@@ -1,0 +1,30 @@
+name: Bug report
+description: Report reproducible behavior that differs from expectations.
+title: "[Bug]: "
+labels: ["type/bug"]
+body:
+  - type: textarea
+    id: observed
+    attributes:
+      label: Observed behavior
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduction steps
+      value: "1.\n2.\n3."
+    validations:
+      required: true
+  - type: textarea
+    id: diagnostics
+    attributes:
+      label: Diagnostics
+      description: Do not include secrets, private documents, or copyrighted source text.
+
