@@ -1,6 +1,6 @@
 # ADR 0001: Modular monolith for the core API
 
-- Status: Proposed
+- Status: Accepted
 - Date: 2026-07-22
 
 ## Context
